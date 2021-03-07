@@ -12,20 +12,16 @@
   height: 15vh;
 }
 
-#logo-name {
-  margin-left: 1vw;
-}
-
 .title-fase {
   margin-right: 13vw;
   color: #FECF12;
 }
 
 #page {
+  width: 6vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: -2vw;
 }
 
 #page-icon {
@@ -34,7 +30,7 @@
 }
 
 #page-name {
-  width: 10vw;
+  width: 5vw;
   text-align: center;
   color: white;
   text-decoration: none;
@@ -43,8 +39,6 @@
 #collapsed-itens {
   margin-left: 20vw;
 }
-
-
 
 @media (max-width: 375px) and (max-height: 812px) {
   .menu {
@@ -70,8 +64,9 @@
   }
   #collapsed-itens {
     background-color: #0093E8;
-    margin:  0 !important;
+    margin:  0 !important;;
     height: 8vh;
+    align-items: center;
   }
   #page-name {
     padding: 0 !important;

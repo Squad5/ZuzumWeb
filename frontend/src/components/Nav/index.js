@@ -16,7 +16,7 @@ const Nav = (props) => {
                 <div className="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <Link to="/" className="navbar-brand flex-grow-1 p-2 text-light ml-4" id="logo-name"><h1>ZUZUM</h1></Link>
                     <h1 className="title-fase">{props.children}</h1>
-                    <ul className="navbar-nav mr-3 mt-3" id="collapsed-itens">
+                    <ul className="navbar-nav mr-3 mt-3 justify-content-center" id="collapsed-itens">
                         <li className="nav-item active" id="page">
                             <Link to="/"><i className="fas fa-home" id="page-icon"/></Link>
                             <Link to="/" className="nav-link" id="page-name">início</Link>
