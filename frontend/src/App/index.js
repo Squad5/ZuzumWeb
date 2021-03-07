@@ -49,7 +49,7 @@ const Index = () => {
                                 </Link>
                             </div>
                         </section>
-                        <section id="sec-3"></section>
+                        {/* <section id="sec-3"></section> */}
                     </div>
                     <div id="pt-2" className="text-center mt-4">
                         <div id="pt-2-espaco" className="bg-success" />

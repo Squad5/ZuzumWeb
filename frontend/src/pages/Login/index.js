@@ -65,7 +65,7 @@ const Login = () => {
                                 </button>
                             </div>
                             {
-                                msg === false && <div id="alert" className="alert alert-danger mx-auto mt-4 w-75" role="alert"> Erro ao fazer login </div>
+                                msg === false && <div id="alert" className="alert alert-danger mt-4 w-75" role="alert">ERRO AO FAZER LOGIN</div>
                             }
                         </form>
                     </div>

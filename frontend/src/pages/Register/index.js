@@ -76,7 +76,7 @@ const Register = () => {
                                 <input onChange={controleCadastro} className="inputC" type="text" name="email" placeholder="E-MAIL DO RESPONSÁVEL"></input>
                                 <input onChange={controleCadastro} className="inputC" id="senha" type="password" name="senha" placeholder="SENHA"></input>
                                 <input className="inputC" type="password" id="confirmaSenha" name="confirme" placeholder="CONFIRMAR SENHA"></input>
-                                <Link to="/login"><p className="text-white mt-3">Já possui uma conta? <span id="clique-aqui">Clique aqui.</span></p></Link>
+                                <Link to="/login" id="from-login"><p className="text-white mt-3">Já possui uma conta? <span id="clique-aqui">Clique aqui.</span></p></Link>
                                 <button type="submit" className="btn" nome="CRIAR" id="btnCad">CRIAR CONTA</button>
                             </form>
                         </div>

@@ -1,7 +1,4 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     font-family: 'Paytone One', sans-serif;
 }
 
@@ -9,15 +6,19 @@
     background-color: #0093E8;
     width: 100%;
 }
-
+.temp2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 #section1 {
-    width: 25vw;
+    width: 30vw;
     bottom: 0;
     align-self: flex-end;
 }
 
 #section2 {
-    width: 50vw;
+    width: 45vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,11 +32,6 @@
     width: 16vw;
     height: 100%;
     margin-left: 8vh;
-}
-
-.temp2{
-    display: flex;
-    justify-content: space-between;
 }
 
 #caixaRegister{
@@ -75,6 +71,10 @@
 
 #clique-aqui {
     color: #0093E8;
+    text-decoration: none;
+}
+#from-login {
+    text-decoration: none;
 }
 
 #btnCad{
@@ -136,5 +136,8 @@
     #erro {
         width: 35vh;
         margin-left: 5.45vh !important;
+    }
+    #from-login {
+        font-size: 0.9em;
     }
 }

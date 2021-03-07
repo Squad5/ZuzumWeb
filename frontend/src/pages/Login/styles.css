@@ -19,7 +19,11 @@
 .section-vazio {
     width: 25vw;
 }
-
+#alert{
+    text-align: center;
+    top: 15vh;
+    position: fixed;
+}
 #container-login {
     height: 85vh;
     display: flex;
