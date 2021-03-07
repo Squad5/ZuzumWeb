@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#nav-sobre {
+    background-color: #0093E8;
+    width: 100%;
+}
+.containerAboult{
+    color: white;
+    background-image: url('../../assets/images/Aboult/fundo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+#sectionAboult{
+    display: flex;
+    padding: 40px;
+    align-items:center;
+    flex-direction: column;
+}
+#sectionAboult h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+}
+#sub-title{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Roboto, Arial, sans-serif;
+}
+#figureIcon1{
+    font-size: 2.5em;
+    padding-right: 10px;
+}
+#box-history1{
+    display: flex;
+    border-left: 4px solid white;
+    padding: 5px;
+    margin-left: 45vw; 
+    margin-bottom: 2vw;
+    width: 38vw;
+    font-family: Roboto, Arial, sans-serif;
+}
+#box-history1 h2,
+#box-history1 p {
+    font-family: Roboto, Arial, sans-serif;
+}
+#box-history1 h2 {
+    font-weight: bold;
+}
+#figureIcon2 {
+    font-size: 2.5em;
+    padding-left: 10px;
+}
+#box-history2 {
+    text-align: right;
+    display: flex;
+    border-right: 4px solid white;
+    padding: 5px;
+    width: 38vw;
+    margin-bottom: 2vw;
+    margin-right: 45vw; 
+}
+#box-history2 h2,
+#box-history2 p {
+    font-family: Roboto, Arial, sans-serif;
+}
+#box-history2 h2 {
+    font-weight: bold;
+}
+#figureIcon3 {
+    font-size: 2.5em;
+    padding-right: 10px;
+}
+#box-history3 {
+    display: flex;
+    border-left: 4px solid white;
+    padding: 5px;
+    margin-bottom: 2vw;
+    margin-left: 45vw; 
+    width: 38vw;
+}
+#box-history3 h2,
+#box-history3 p {
+    font-family: Roboto, Arial, sans-serif;
+}
+#box-history3 h2 {
+    font-weight: bold;
+}
+#figureIcon4{
+    font-size: 2.5em;
+    padding-left: 10px;
+}
+#box-history4{
+    display: flex;
+    text-align: right;
+    margin-right: 45vw;
+    margin-bottom: 2vw;
+    padding: 5px;
+    border-right: 4px solid white;
+    width: 38vw;
+}
+#box-history4 h2,
+#box-history4 p {
+    font-family: Roboto, Arial, sans-serif;
+}
+#box-history4 h2 {
+    font-weight: bold;
+}
+#titleDev{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+}
+#sectionAboult3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.perfil-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 45vh;
+    width: 20vw;
+    margin-bottom: 40px;
+}
+.perfil-container figcaption{
+    padding-top: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+}
+.perfil{
+    border-radius: 50%;
+    height: 20vh;
+    width: 10vw;
+    margin-bottom: 10px;
+}
+.redes-sociais{
+    padding-top: 10px;
+}
+.redes-sociais a{
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+}
+#sectionAboult2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#sectionAboult2 cite{
+    font-size: 1.5em;
+    width: 48vw;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+}
+@media (max-width: 375px) and (max-height: 812px){
+    #sectionAboult3{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .perfil-container{
+        margin-bottom: 10px;
+        width: 64vw;
+    }
+    .perfil{
+        width: 34vw;
+    }
+    #box-history1{
+        justify-content: center;
+        width: 84vw;
+        border: 0;
+        margin: 0;
+    }
+    #box-history2{
+        justify-content: center;
+        width: 84vw;
+        border: 0;
+        margin: 0;
+    }
+    #box-history3{
+        justify-content: center;
+        width: 84vw;
+        border: 0;
+        margin: 0;
+    }
+    #box-history4{
+        justify-content: center;
+        width: 84vw;
+        border: 0;
+        margin: 0;    
+    }
+}

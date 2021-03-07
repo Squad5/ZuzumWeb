@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#nav-home {
+    background-color: #0093E8;
+    width: 100%;
+}
+
+#pt-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sec-1 {
+    width: 25vw;
+}
+
+#bzz {
+    margin-bottom: -45vh;
+    width: 60%;
+    margin-left: 4vw;
+}
+
+#sec-2 {
+    /*background-color: gold;*/
+    width: 50vw;
+}
+
+#car-rounded {
+    border-radius: 40px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 50px;
+    color: #FECF12;
+    margin-left: 10vw;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 50px;
+    color: #FECF12;
+    margin-left: -15vw;
+}
+
+#sec-3 {
+    width: 25vw;
+}
+
+.carr {
+    width: 50vw;
+}
+
+#button-start {
+    background-color: #FECF12;
+    color: #ffff;
+    width: 13vw;
+    height: 7vh;
+    font-size: 3vh;
+    border-radius: 12px;
+
+}
+
+#pt-2 {
+    margin-bottom: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffff;
+}
+
+#pt-2-espaco {
+    margin-top: 7vh;
+    height: 10vh;
+}
+
+#parceiro {
+    color: #0093E8;
+}
+
+#logo-emp {
+    margin: 4%;
+}
+
+#txt-emp {
+    font-family: 'Roboto';
+    font-style: oblique;
+    width: 45%;
+    color: #0093E8;
+    align-self: center;
+}
+
+#emp-link {
+    font-family: 'Roboto';
+    color: #0093E8;
+}
+
+#footer {
+    background-color: #0093E8;
+    color: #ffff;
+}
+
+#contato-icon {
+    background-color: #DD5A21;
+    width: 1.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    text-align: center;
+}
+
+#contato-text {
+    font-family: 'Roboto';
+    margin-bottom: 1vh;
+}
+
+#copy {
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 2vh;
+}
+
+.link-footer{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 375px) and (max-height: 812px) {
+    #spacing {
+        margin-top: 10vh;
+    }
+    #carouselExampleControls {
+        width: 90vw;
+        margin-left: 2vh;
+    }
+    #sec-1 {
+        display: none;
+    }
+    #button-start{
+        width: 40vw;
+        height: 6vh;
+        font-size: 2vh;
+        margin-left: 16vh;
+        border-radius: 12px;
+    }
+    #pt-2-espaco {
+        margin-top: 10vh;
+        height: 0vh;
+    }
+    #txt-emp {
+        width: 90%;
+        margin-right: 1vh;
+    }
+    #contato-text {
+        font-family: 'Roboto';
+        font-size: 1.6vh;
+    }
+    #contato-icon {
+        display: none;
+    }
+    #footer {
+        margin-right: 1vh;
+    }
+}

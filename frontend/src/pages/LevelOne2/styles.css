@@ -1,0 +1,83 @@
+#nav-fase1-2 {
+    background-color: #3DC099;
+    width: 100%;
+}
+#titleLevelOne2{
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    position: relative;
+    right: 11vw;
+}
+.chest img{
+    visibility: hidden;
+} 
+.intimate img{
+    visibility: hidden;
+}
+.mouth img{
+    visibility: hidden;
+}
+.butt img{
+    visibility: hidden;
+}
+.chest{
+    position: fixed;
+    top: 34vh;
+    left: 30vw;
+}
+.intimate{
+    position: fixed;
+    bottom: 10vh;
+    left: 29vw;
+}
+.mouth{
+    position: fixed;
+    top: 35vh;
+    right: 30vw;
+}
+.butt{
+    position: fixed;
+    bottom: 9vh;
+    right: 33vw;
+}
+@media (max-width: 375px) and (max-height: 812px){
+    #titleLevelOne2{
+        right: 0vw;
+    }
+    .chest{
+        top: 40vh;
+        left: 2vw;
+    }
+    .intimate{
+        bottom: 32vh;
+        left: 3vw;
+    }
+    .mouth{
+        top: 38vh;
+        right: 2vw;
+    }
+    .butt{
+        bottom: 32vh;
+        right: 8vw;
+    }
+}
+@media (max-width: 1280px) and (max-height: 800px){
+    #titleLevelOne2{
+        font-size: 2em;
+    }
+    .chest{
+        top: 38vh;
+        left: 27vw;
+    }
+    .intimate{
+        left: 27vw;
+    }
+    .mouth{
+        top: 36vh;
+        right: 23vw;
+    }
+    .butt{
+        right: 27vw;
+    }
+}
