@@ -8,6 +8,7 @@
     background-image: url('../../assets/images/Aboult/fundo.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     width: 100%;
 }
 #sectionAboult{
@@ -15,6 +16,7 @@
     padding: 40px;
     align-items:center;
     flex-direction: column;
+    width: 100%;
 }
 #sectionAboult h1{
     padding-top: 10px;
@@ -118,6 +120,7 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    width: 100%;
 }
 .perfil-container{
     display: flex;

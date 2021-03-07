@@ -108,6 +108,7 @@
 
 #footer {
     background-color: #0093E8;
+    width: 100%;
     color: #ffff;
 }
 
@@ -132,6 +133,7 @@
 
 .link-footer{
     color: white;
+    font-size: 1.2em;
     text-decoration: none;
 }
 

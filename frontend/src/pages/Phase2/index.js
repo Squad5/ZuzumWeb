@@ -23,27 +23,27 @@ function Inicio(props){
     if(event.target.id = 'btnProximo'){
       setTeste(contador + 1)
       console.log(contador)
-        if(contador == 1){
+        if(contador === 1){
           botao.style.visibility = 'hidden'
           setImagem(Boca)
-        }else if(contador == 2){
+        }else if(contador === 2){
           botao.style.visibility = 'hidden'
           setImagem(Peito)
-        }else if(contador == 3){
+        }else if(contador === 3){
           botao.style.visibility = 'hidden'
           setImagem(Pepeca)
-        }else if(contador == 4){
+        }else if(contador === 4){
           botao.style.visibility = 'hidden'
           setImagem(Pinto)
-        }else if(contador == 5){
+        }else if(contador === 5){
           botao.style.visibility = 'hidden'
           setImagem(Barriga)
         }
-        else if(contador == 6){
+        else if(contador === 6){
           botao.style.visibility = 'hidden'
           setImagem(Bracos)
         }
-        else if(contador == 7){
+        else if(contador === 7){
           botao.style.visibility = 'hidden'
           setImagem(Pernas)
         }
@@ -52,13 +52,13 @@ function Inicio(props){
 
   const proximaPergunta = (event) => {
     var botao = document.getElementById('btnProximo')
-      if(event.target.id == 'btnV'){
+      if(event.target.id === 'btnV'){
         if(contador <= 5){
           botao.style.visibility = 'visible'
         }else if(contador >= 6){
           respostaErrada()
         }
-      }else if(event.target.id == 'btnF'){
+      }else if(event.target.id === 'btnF'){
         if(contador < 5){
           respostaErrada()
         }else if(contador >= 5){

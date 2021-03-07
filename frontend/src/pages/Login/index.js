@@ -61,7 +61,7 @@ const Login = () => {
                             <Link to="/cadastrar" className="link">Ainda não tem conta? <aqui id="clique-aqui">Clique aqui</aqui></Link>
                             <div className="box-btn-play">
                                 <button className="btn-play mt-3">
-                                    <p><i class="fas fa-play"></i></p>
+                                    <p><i className="fas fa-play"></i></p>
                                 </button>
                             </div>
                             {

@@ -54,7 +54,7 @@ const Index = () => {
                     <div id="pt-2" className="text-center mt-4">
                         <div id="pt-2-espaco" className="bg-success" />
                         <h1 id="parceiro">PARCEIRO</h1>
-                        <img src={emp} className="" id="logo-emp" />
+                        <img src={emp} className="" id="logo-emp" alt="logo Eu Me Protejo" />
                         <p id="txt-emp" className="">"Eu Me Protejo é um projeto criado para que as crianças com e sem deficiência
                         aprendam que seus corpos são seus e devem ser respeitados. Ensina a criança a
                         reconhecer e se proteger de abusos. Explica que, se algo acontecer, as crianças
@@ -74,10 +74,10 @@ const Index = () => {
                                 </div>
                             </div>
                             <div>
-                                <Link to="/login"><h4 className="link-footer">LOGIN</h4></Link>
+                                <Link to="/login" className="link-footer">LOGIN</Link>
                             </div>
                             <div>
-                                <Link to="/Sobre"><h4 className="link-footer">SOBRE</h4></Link>
+                                <Link to="/Sobre" className="link-footer">SOBRE</Link>
                             </div>
                         </div>
                         <div id="copy">© Todos os direitos reservados Squad 5 | 2021</div>
