@@ -24,12 +24,12 @@ main #secao1{
     flex-direction: column;
     align-items: center;
     width: 20vw;
-    padding-left: 3vw;
-    font-size: 1.8rem;
-   
+    height: 85vh;
+    padding-left: 2.6vw;
 }
 #secao1 p {
-    font-size: 1rem;
+    width: 22vw;
+    font-size: 1.2rem;
     margin-top: 20vh;
     text-align: center;
 }
@@ -51,7 +51,6 @@ main #secao2 #questao{
     margin-top: 5vh;
     color:#FECF12;
     margin-bottom: 2vh;
-
 }
 main #ImgBumbum img{ 
     border-radius: 50%;
@@ -99,7 +98,6 @@ main #secao3{
     width: 20vw;
     height: 85vh;
 }
-
 main #secao3 #btnProximo{
     border: 0;
     margin-top: 10vh;
@@ -117,7 +115,6 @@ main #secao3 #btnProximo{
     0%   {background: #FECF12;}
     25%  {background: #f6c603fd; color:white}
 }
-
 .modal-container{
     display: none;
     justify-content: center;

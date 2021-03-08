@@ -1,4 +1,16 @@
 
+    ::-webkit-scrollbar-track {
+        background-color: #fff;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+        background-color: #fecf12a6;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #fecf12a6;
+        background-color: #;
+    }
+
 #cor-de-fundo {
     background-color: #0093E8;
     height: 100vh;

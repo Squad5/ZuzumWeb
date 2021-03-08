@@ -51,7 +51,12 @@ const Login = () => {
                 <Nav id="nav-login"/>
                 <main id="container-login">
                     <div className="section-abelha">
-                        <img src={bzz} id="bzz"/>
+                        {
+                            msg === false && <div id="alert" className="alert alert-danger mt-4 ml-5 w-75" role="alert">ERRO AO FAZER LOGIN</div>
+                        }
+                        <figure className="box-bee">
+                            <img src={bzz} id="bzz"/>
+                        </figure>
                     </div>
                     <div className="section-login" id="section-log">
                         <form onSubmit={upLogin} className="box-login">
@@ -64,9 +69,6 @@ const Login = () => {
                                     <p><i className="fas fa-play"></i></p>
                                 </button>
                             </div>
-                            {
-                                msg === false && <div id="alert" className="alert alert-danger mt-4 w-75" role="alert">ERRO AO FAZER LOGIN</div>
-                            }
                         </form>
                     </div>
                     <div className="section-vazio"></div>

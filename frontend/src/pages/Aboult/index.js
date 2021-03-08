@@ -107,9 +107,9 @@ const App = () => {
                 </section>
                 <section id='sectionAboult2'>
                     <cite>
-                        <h4>"Aprendemos que apesar de poucos recursos,
-                        através de poucas linhas de código podemos impactar
-                        e transformar vidas"</h4>
+                        <h4>"Aprendemos que apesar dos recursos limitados,
+                        através de poucas linhas de código, podemos transformar 
+                        e impactar vidas."</h4>
                     </cite>
                 </section>
             </main>

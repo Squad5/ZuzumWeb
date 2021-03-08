@@ -4,25 +4,30 @@
 }
 
 .section-abelha {
+    width: 30vw;
+    bottom: 0;
+    align-self: flex-end;
+}
+#alert {
+    text-align: center;
+}
+.box-bee {
     width: 25vw;
-    height: 45vh;
-    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #bzz{
-    margin: 0px;
+    width: 15vw;
+    height: 100%;
+    margin-left: 8vh;
 }
-
 .section-log {
     width: 50vw;
 }
 
 .section-vazio {
     width: 25vw;
-}
-#alert{
-    text-align: center;
-    top: 15vh;
-    position: fixed;
 }
 #container-login {
     height: 85vh;
@@ -149,8 +154,15 @@
         width: 60vw;
         height: 8vh;
     }
-    #section-abelha img {
+    .box-bee {
         display: none;
+    }
+    #alert {
+        font-size: 0.9em;
+        text-align: center;
+        width: 70vw;
+        position: fixed;
+        top: 16vh;
     }
     #container-login .section-login .box-login .box-btn-play button{
         width: 28vw;
@@ -160,11 +172,11 @@
     #bzz {
         display: none;
     }
-    .link {
+    #container-login .section-login .box-login .link{
         width: 80vw;
         height: 4vh;
+        font-size: 0.9em;
         padding-top: 0.5vh;
-        background-color: #FECF12;
         text-align: center;
     }
     #section-vazio {

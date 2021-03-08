@@ -63,15 +63,17 @@
     display: none;
   }
   #collapsed-itens {
-    background-color: #0093E8;
+    background-color: white;
+    opacity: 0.5;
     margin:  0 !important;;
-    height: 8vh;
+    height: 10vh;
     align-items: center;
   }
   #page-name {
+    color: black;
     padding: 0 !important;
     margin:  0 !important;
-    opacity: 0.5;
+    opacity: 0.9;
   }
   #page-name:hover {
     opacity: 1;
