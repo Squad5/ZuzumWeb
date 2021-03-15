@@ -2,7 +2,7 @@
  [<img src="https://img.shields.io/badge/-Em%20desenvolvimento-yellow">](#)
  
 <div align="center">
-<img src =""  width="200px"  alt="Logo ZUZUM" title="logo ZUZUM">
+<img src ="https://github.com/Squad5/ZuzumWeb/blob/master/frontend/src/assets/images/logo.png"  width="200px"  alt="Logo ZUZUM" title="logo ZUZUM">
 </div>
 <br/>
 <p align="justify" font-size="22px"> 
