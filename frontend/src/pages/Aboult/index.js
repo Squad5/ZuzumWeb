@@ -16,8 +16,8 @@ const App = () => {
                 <section id='sectionAboult'>
                     <h1>BEM VINDO(A) AO ZUZUM</h1>
                     <p id='sub-title'>Plataforma totalmente intuitiva voltada para<br />
-                    crianças de 6 à 9 anos. Temos como principal objetivo<br />
-                    a educação sexual.</p>
+                    crianças de 6 à 9 anos. Nosso objetivo é enfrentar o abuso.<br />
+                    sexual infantil através da educação.</p>
                     <div id='box-history1'>
                         <div id='figureIcon1'><i className="fas fa-calendar-alt"></i></div>
                         <div>
@@ -32,9 +32,12 @@ const App = () => {
                     <div id='box-history2'>
                         <div>
                             <h2>O processo de ideação</h2>
-                            <p>Focamos principalmente no nosso público alvo. Para
-                            chegarmos ao ZUZUM foram necessárias diversas pesquisas e
-                            tentativas, estamos bastante felizes com o resultado atual.</p>
+                            <p>Baseado no público alvo (crianças de 6 à 9 anos), fizemos pesquisas para 
+                            compreendermos melhor o problema e conversamos com diversos profissionais para
+                            validarem nossas ideias. Das cores às interações propostas, toda plataforma
+                            foi especialmente desenvolvida para atender a esse público. Diferente de outras
+                            aplicações, lidamos com as partes íntimas de forma clara e objetiva, sem tabus
+                            ou apelidos.</p>
                         </div>
                         <div id='figureIcon2'><i className="far fa-lightbulb"></i></div>
                     </div>
@@ -42,21 +45,21 @@ const App = () => {
                         <div id='figureIcon3'><i className="far fa-handshake"></i></div>
                         <div>
                             <h2>Parceiros</h2>
-                            <p>Conseguimos um parceiro de peso para agregar ainda mais, o
-                            EU ME PROTEJO é composto por mais de 50 profissionais voluntários
-                            de diversas áreas da educação e outras. O diferencial do
-                            ZUZUM é que foi feito especificamente para as crianças, sem a
-                            necessidade de acompanhamento por um adulto.
+                            <p>Em nossas pesquisas contatamos o projeto Eu Me Protejo que é nosso atual parceiro.
+                            Esse projeto é composto por mais de 50 profissionais voluntários de diversas áreas como
+                            educação, medicina, psicologia, diretos humanos entre outros, que nos ajudaram a formar
+                            uma trilha de aprendizagem lógica e condizente com a proposta.
                             </p>
                         </div>
                     </div>
                     <div id='box-history4'>
                         <div>
                             <h2>Planejamento futuro</h2>
-                            <p>Introduzir melhorias no app para chegarmos até
-                            as escolas com intuito de atingir um maior número
-                            de crianças. Fazer da ferramenta uma aliada aos
-                            profissionais que trabalham com esse público diariamente.
+                            <p>Acreditamos que para atingirmos mais crianças e trabalharmos de forma mais eficaz,
+                                precisamos levar nossa aplicação às escolas. Vamos criar mais módulos para oferecer
+                                um aprendizado completo, abordando temas como sentimentos, em quem confiar e pedir
+                                ajuda e muitos outros. Por fim, pretendemos criar interações para mais idades,
+                                possibilitando conhecimento para todas as faixas etárias.
                             </p>
                         </div>
                         <div id='figureIcon4'><i className="fas fa-rocket"></i></div>
